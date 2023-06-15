@@ -24,7 +24,7 @@ const Header = () => {
                     </ul>
                 </nav>
                 {/* /////////////////////////////////NAV MOBILE//////////////////////////////////// */}
-                <nav className={`lg:hidden ${menuState ? 'block' : 'hidden'} flex absolute top-16 right-7 bg-white min-w-[310px] min-h-[300px] justify-center rounded-[4px] specialBackground z-50`}>
+                <nav className={`lg:hidden ${menuState ? 'block' : 'hidden'} flex absolute top-16 right-7 bg-white min-w-[320px] min-h-[300px] justify-center rounded-[4px] specialBackground z-50`}>
                     <ul className='flex gap-7 flex-col justify-center text-center'>
                         <li className='text-[14px] text-Dark-Blue font-bold hover:text-Dark-Grayish-Blue cursor-pointer'>Pricing</li>
                         <li className='text-[14px] text-Dark-Blue font-bold hover:text-Dark-Grayish-Blue cursor-pointer'>Product</li>
