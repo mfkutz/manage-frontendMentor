@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div className='z-10 lg:pt-[50px] pt-[40px] flex flex-col items-center overflow-x-hidden relative'>
             <img src={bgDesktop} alt="" className='absolute -z-10 -top-[9rem] -right-[7rem]' />
-            <img src={bgDesktop} alt="" className='absolute -z-10 lg:bottom-[40rem] lg:-left-[30rem] left-[19rem] bottom-[128rem] lg:w-[815px] ' />
+            <img src={bgDesktop} alt="" className='absolute -z-10 lg:bottom-[40rem] lg:-left-[30rem] left-[19rem] bottom-[128rem] lg:w-[815px] w-[300px] ' />
             <Header />
             <Hero />
             <HeroData />
