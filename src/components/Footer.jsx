@@ -31,7 +31,7 @@ const Footer = () => {
     }
 
     return (
-        <div className='bg-Very-Dark-Blue w-full flex lg:flex-row flex-col-reverse lg:justify-evenly lg:py-14 '>
+        <div className='bg-Very-Dark-Blue w-full flex lg:flex-row flex-col-reverse lg:justify-evenly lg:py-14 z-10'>
             <div className='lg:hidden flex justify-center mb-8'>
                 <p className='text-Dark-Grayish-Blue text-[12px] text-right'>Copyright 2020. All Rights Reserved</p>
             </div>

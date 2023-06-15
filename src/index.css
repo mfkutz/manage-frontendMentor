@@ -28,7 +28,9 @@
     box-shadow: 0 0 0 10000vmin rgba(29, 30, 31, 0.338)
 }
 
-
+.backgroundImage {
+    background-image: url(./assets/bg/desktop.svg)
+}
 
 @tailwind base;
 @tailwind components;
